@@ -1,0 +1,9 @@
+(defwindow example
+    :monitor 0
+    :exclusive true
+    :stacking "fg"
+    :focusable false
+    :geometry (geometry :width "35px"
+                        :height "100%"
+                        :anchor "center left") ;; exclusive 1 needed
+  "hello")
